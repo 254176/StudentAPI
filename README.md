@@ -36,9 +36,13 @@ git clone <url>
 
 
 # Execute Go build commands
+
 go mod tidy
+
 go mod vendor
+
 go build <name of project>
+
 Purpose: These commands are used to manage dependencies and build the Go project.
 Commands:
 go mod tidy: Cleans up the go.mod file, removing any dependencies that are no longer needed.
