@@ -41,13 +41,17 @@ go mod tidy
 
 go mod vendor
 
-go build <name of project>
+go build name of project
 
 Purpose: These commands are used to manage dependencies and build the Go project.
+
 Commands:
 go mod tidy: Cleans up the go.mod file, removing any dependencies that are no longer needed.
+
 go mod vendor: Copies dependencies into the vendor directory.
+
 go build <name of project>: Builds the Go project. Replace <name of project> with the actual name of your project.
+
 # Import Student API postman json in Postman
 Purpose: Postman is a popular API testing tool. This step involves importing a 
 JSON file (presumably containing Postman requests and configurations) related to the Student API.
